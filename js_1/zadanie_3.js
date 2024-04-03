@@ -7,7 +7,7 @@ function checkDivisibility(number) {
             return;
         }
     }
-    console.log("Не делится");
+    console.log(`Число ${number} не делится`);
 }
 checkDivisibility(30);
 checkDivisibility(12);
