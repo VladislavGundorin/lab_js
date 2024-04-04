@@ -1,4 +1,4 @@
-function updateInventory(store, delivery) {
+function magazin(store, delivery) {
     let inventory = {};
     const addOrUpdate = (item, quantity) => {
         if (inventory[item]) {
@@ -17,7 +17,7 @@ function updateInventory(store, delivery) {
         console.log(`${product} -> ${inventory[product]}`);
     }
 }
-let currentStock = [
+let stock = [
     'Chips', '5', 'CocaCola', '9', 'Bananas',
     '14', 'Pasta', '4', 'Beer', '2'
 ];
@@ -25,4 +25,4 @@ let delivery = [
     'Flour', '44', 'Oil', '12', 'Pasta', '7',
     'Tomatoes', '70', 'Bananas', '30'
 ];
-updateInventory(currentStock, delivery);
+magazin(stock, delivery);

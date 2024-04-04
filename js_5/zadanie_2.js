@@ -1,4 +1,4 @@
-function cityTable(inputArray) {
+function city(inputArray) {
     inputArray.forEach(row => {
         let [city, latitude, longitude] = row.split(" | ");
         let cityObject = {
@@ -13,4 +13,4 @@ let cities = [
     'Moscow | 55.7522 | 37.6156',
     'Beijing | 39.913818 | 116.363625'
 ];
-cityTable(cities);
+city(cities);

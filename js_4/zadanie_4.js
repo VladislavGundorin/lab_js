@@ -19,4 +19,5 @@ function progress(n) {
     }
 }
 progress(30);
+progress(50);
 progress(100);
